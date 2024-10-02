@@ -9,7 +9,7 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-
+    
 numbers.sort()
 if len(numbers)%2 == 0:
     median = (numbers[len(numbers)//2-1] + numbers[len(numbers)//2])/2
